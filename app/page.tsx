@@ -7,7 +7,6 @@ async function fetchData() {
 }
 
 export default async function Home() {
-
   const posts = await fetchData();
 
   return (<div>
